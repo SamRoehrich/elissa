@@ -40,6 +40,11 @@ const projects = [
         width: 400,
         height: 400,
       },
+      {
+        location: "/shirt_forsite.jpg",
+        width: 400,
+        height: 400,
+      },
     ],
   },
   {

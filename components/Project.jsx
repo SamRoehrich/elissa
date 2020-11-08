@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    height: "65vh",
+    height: "75vh",
     width: "100%",
     backgroundColor: "#022e40",
   },
@@ -40,7 +40,7 @@ const Project = ({ item, key }) => {
           <Typography variant="h6" style={{ color: "#f27777" }}>
             Client: {item.client}
           </Typography>
-          <Typography variant="body1" style={{ color: "#f27777" }}>
+          <Typography variant="h5" style={{ color: "#f27777" }}>
             {item.description}
           </Typography>
         </Grid>
