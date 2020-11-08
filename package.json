@@ -1,0 +1,19 @@
+{
+  "name": "elissa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "next"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "fontsource-roboto": "^3.0.3",
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-spring": "^8.0.27",
+    "react-visibility-sensor": "^5.1.1"
+  }
+}
