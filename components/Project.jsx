@@ -3,19 +3,15 @@ import Image from "next/image";
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    height: "100vh",
+    height: "65vh",
     width: "100%",
     backgroundColor: "#022e40",
   },
-  iamgeContainer: {
-    height: "25%",
-    width: "100%",
-    backgroundColor: "white",
-  },
   content: {
     marginLeft: 50,
-    width: "40%",
-    marginTop: 200,
+    width: "50%",
+    marginTop: 50,
+    marginBotton: -100,
   },
 }));
 
@@ -41,11 +37,19 @@ const Project = ({ item, key }) => {
           <Typography variant="h1" style={{ color: "#f27777" }}>
             {item.name}
           </Typography>
+          <Typography variant="h6" style={{ color: "#f27777" }}>
+            Client: {item.client}
+          </Typography>
           <Typography variant="body1" style={{ color: "#f27777" }}>
             {item.description}
           </Typography>
         </Grid>
-        <Grid item container style={{ marginLeft: 1000 }}>
+        <Grid
+          item
+          container
+          justify="space-around"
+          style={{ marginTop: item.marginTop }}
+        >
           {item.photos.map((photo) => (
             <Image
               src={photo.location}
