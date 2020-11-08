@@ -58,7 +58,9 @@ const Header = () => {
             <Link href="/contact">
               <Button className={classes.buttons}>contact</Button>
             </Link>
-            <Button className={classes.buttons}>resume</Button>
+            <Link href="/resume">
+              <Button className={classes.buttons}>resume</Button>
+            </Link>
           </Grid>
         </Toolbar>
         <Toolbar className={classes.toolbar}>
