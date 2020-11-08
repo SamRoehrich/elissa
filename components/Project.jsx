@@ -1,4 +1,5 @@
 import { Grid, makeStyles, Typography } from "@material-ui/core";
+import Image from "next/image";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -13,13 +14,14 @@ const useStyles = makeStyles((theme) => ({
   },
   content: {
     marginLeft: 50,
-    width: "50%",
+    width: "40%",
     marginTop: 200,
   },
 }));
 
 const Project = ({ item, key }) => {
   const classes = useStyles();
+  console.log(item);
   return (
     <Grid
       container
@@ -43,10 +45,15 @@ const Project = ({ item, key }) => {
             {item.description}
           </Typography>
         </Grid>
-        <Grid item container style={{ marginLeft: 1400 }}>
-          {item.photos.map((photo) => {
-            <img src={photo} alt={photo}></img>;
-          })}
+        <Grid item container style={{ marginLeft: 1000 }}>
+          {item.photos.map((photo) => (
+            <Image
+              src={photo.location}
+              alt="Niad"
+              width={photo.width}
+              height={photo.height}
+            />
+          ))}
         </Grid>
       </Grid>
     </Grid>
