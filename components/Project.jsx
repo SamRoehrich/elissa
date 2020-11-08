@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    height: "75vh",
+    height: "100vh",
     width: "100%",
     backgroundColor: "#022e40",
   },
