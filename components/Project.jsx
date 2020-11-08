@@ -27,9 +27,6 @@ const Project = ({ item, key }) => {
       className={classes.container}
       alignItems="center"
     >
-      <Grid item className={classes.iamgeContainer}>
-        <p>project image</p>
-      </Grid>
       <Grid container direction="row" alignItems="center">
         <Grid
           item

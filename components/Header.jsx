@@ -23,7 +23,8 @@ const useStyles = makeStyles((theme) => ({
   },
   buttons: {
     color: "#025949",
-    fontSize: 16,
+    fontSize: "28px",
+    textTransform: "none",
   },
   text: {
     color: "#f27777",
@@ -49,7 +50,7 @@ const Header = () => {
           </Grid>
           <Grid item xs={3}>
             <Link href="/about">
-              <Button className={classes.buttons}>about</Button>
+              <Button className={classes.buttons}> about</Button>
             </Link>
             <Link href="/projects">
               <Button className={classes.buttons}>projects</Button>
