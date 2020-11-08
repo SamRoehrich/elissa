@@ -1,4 +1,5 @@
 import { Grid, makeStyles } from "@material-ui/core";
+import Footer from "./Footer";
 import Header from "./Header";
 
 const useStyles = makeStyles({

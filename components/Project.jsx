@@ -47,8 +47,8 @@ const Project = ({ item, key }) => {
         <Grid
           item
           container
-          justify="space-around"
-          style={{ marginTop: item.marginTop }}
+          justify="flex-start"
+          style={{ marginTop: item.marginTop, marginLeft: 50 }}
         >
           {item.photos.map((photo) => (
             <Image
@@ -56,6 +56,7 @@ const Project = ({ item, key }) => {
               alt="Niad"
               width={photo.width}
               height={photo.height}
+              style={{ padding: 20 }}
             />
           ))}
         </Grid>
