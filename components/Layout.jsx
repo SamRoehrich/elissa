@@ -9,7 +9,7 @@ const useStyles = makeStyles({
   footer: {
     marginTop: "1rem",
     padding: "1rem",
-    position: "absolute",
+    position: "fixed",
     bottom: 0,
     left: 0,
     width: "100%",

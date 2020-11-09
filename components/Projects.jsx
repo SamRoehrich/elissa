@@ -57,8 +57,8 @@ const projects = [
     photos: [
       {
         location: "/LVD 2.jpg",
-        width: 400,
-        height: 618,
+        width: 350,
+        height: 564,
       },
     ],
   },
