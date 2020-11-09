@@ -1,6 +1,7 @@
 import {
   AppBar,
   Button,
+  Container,
   Grid,
   makeStyles,
   Toolbar,
@@ -38,7 +39,7 @@ const Header = () => {
     <Grid container>
       <AppBar position="static" className={classes.appBar}>
         <Toolbar>
-          <Grid item xs={9}>
+          <Grid item xs={8}>
             <Link href="/">
               <Image
                 src="/Logo_transparent_site2.svg"
@@ -48,7 +49,7 @@ const Header = () => {
               />
             </Link>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item xs={4}>
             <Link href="/about">
               <Button className={classes.buttons}> about</Button>
             </Link>

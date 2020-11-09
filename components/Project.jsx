@@ -17,7 +17,6 @@ const useStyles = makeStyles((theme) => ({
 
 const Project = ({ item, key }) => {
   const classes = useStyles();
-  console.log(item);
   return (
     <Grid
       container
@@ -56,7 +55,6 @@ const Project = ({ item, key }) => {
               alt="Niad"
               width={photo.width}
               height={photo.height}
-              style={{ padding: 20 }}
             />
           ))}
         </Grid>

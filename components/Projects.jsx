@@ -58,7 +58,7 @@ const projects = [
       {
         location: "/LVD 2.jpg",
         width: 400,
-        height: 400,
+        height: 618,
       },
     ],
   },
@@ -93,7 +93,7 @@ const projects = [
       {
         location: "/YUMA BW with text_forsite.jpg",
         width: 400,
-        height: 400,
+        height: 484,
       },
     ],
   },
